@@ -7,15 +7,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <div class="searchbar"></div>
-        <h3>Morgan Oakley</h3>
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
+        <div class="top-nav">
+            <div class="search">
+                <i class="material-icons">search</i>
+                <input type="text" >
+            </div>
+            <div class="profile">
+                <i class="material-icons">notifications_active</i>
+                <img src="avatars/avatar1.png" class="avatar">
+                <h3>Morgan Oakley</h3>
+            </div>
+        </div>
+        <div class="lower-nav">
+            <div class="user">
+                <div>
+                    <img src="avatars/avatar1.png" class="avatar">
+                </div>
+                <div>
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
       </div>
 
 
@@ -23,18 +46,18 @@
       <div class="sidebar">
         <h3>Dashboard</h3>
         <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
+            <li><i class="material-icons">home</i> Home</li>
+            <li><i class="material-icons">person</i>Profile</li>
+            <li><i class="material-icons">comment</i>Messages</li>
+            <li><i class="material-icons">schedule</i>History</li>
+            <li><i class="material-icons">task</i>Tasks</li>
+            <li><i class="material-icons">groups</i>Communities</li>
         </ul>
 
         <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <li><i class="material-icons">settings</i>Settings</li>
+            <li><i class="material-icons">help</i>Support</li>
+            <li><i class="material-icons">shield</i>Privacy</li>
         </ul>
       </div>
       
@@ -43,78 +66,129 @@
 
       <div class="main-content">
         <div class="projects">
-            <h3>Your Projects</h3>
+            <h2>Your Projects</h2>
             <div class="project-container">
 
                 <div class="project-card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                         et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                         <div class="icons">
+                             <i class="material-icons">star</i>
+                             <i class="material-icons">notification_add</i>
+                             <i class="material-icons">send</i>
+                         </div>
+
                 </div>
                 <div class="project-card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                    <h3>Less Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                         et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                         <div class="icons">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">notification_add</i>
+                            <i class="material-icons">send</i>
+                        </div>
                 </div>
                 <div class="project-card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                    <h3>Impossible App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                         et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                         <div class="icons">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">notification_add</i>
+                            <i class="material-icons">send</i>
+                        </div>
                 </div>
                 <div class="project-card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                    <h3>Easy Peasy App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                         et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                         <div class="icons">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">notification_add</i>
+                            <i class="material-icons">send</i>
+                        </div>
                 </div>
                 <div class="project-card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                    <h3>Ad Blocker</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                        <div class="icons">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">notification_add</i>
+                            <i class="material-icons">send</i>
+                        </div>
                 </div>
                 <div class="project-card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                    <h3>Money Maker</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                         et dolore magna aliqua. Mauris commodo quis imperdiet massa tincidunt nunc.</p>
+                         <div class="icons">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">notification_add</i>
+                            <i class="material-icons">send</i>
+                        </div>
                 </div>
             </div>
         </div>
 
-        <div class="announcements">
-            <h3>Announcements</h3>
-            <div class="announce-container">
-                <div class="announce-card">
-                    <h5>Site Maintenence</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+        <div class="right-sidebar">
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="announce-container">
+                    <div class="announce-card">
+                        <h5>Site Maintenence</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                    </div>
+                    <hr>
+                    <div class="announce-card">
+                        <h5>Community Share Day</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                    </div>
+                    <hr>
+                    <div class="announce-card">
+                        <h5>Updated Private Policy</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                    </div>
                 </div>
-                <hr>
-                <div class="announce-card">
-                    <h5>Community Share Day</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
-                </div>
-                <hr>
-                <div class="announce-card">
-                    <h5>Updated Private Policy</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+            </div>
+            
+            <div class="trending">
+                <h2>Trending</h2>
+                <div class="trend-container">
+                    <div class="trend-card">
+                        <img src="avatars/avatar4.png" class="avatar">
+                        <div>
+                            <h4>@tegan</h4>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trend-card">
+                        <img src="avatars/avatar1.png" class="avatar">
+                        <div>
+                            <h4>@morgan</h4>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="trend-card">
+                        <img src="avatars/avatar2.png" class="avatar">
+                        <div>
+                            <h4>@kendall</h4>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="trend-card">
+                        <img src="avatars/avatar3.png" class="avatar">
+                        <div>
+                            <h4>@alex</h4>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="trending">
-            <h3>Trending</h3>
-            <div class="trend-container">
-                <div class="trend-card">
-                    <h4>@tegan</h4>
-                    <p>World Peace Builder</p>
-                </div>
-                <div class="trend-card">
-                    <h4>@morgan</h4>
-                    <p>Super Cool Project</p>
-                </div>
-                <div class="trend-card">
-                    <h4>@kendall</h4>
-                    <p>Life Changing App</p>
-                </div>
-                <div class="trend-card">
-                    <h4>@alex</h4>
-                    <p>No Traffic Maker</p>
-                </div>
-            </div>
         </div>
-      </div>
     </div>
   </body>
 </html>
